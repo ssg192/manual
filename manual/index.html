@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Manual Consola</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="barra-busqueda">
+      <h1>Manual Consola</h1>
+      <ul>
+        <li><a href="#Cancelar-salida-stream">Cancelar salida stream</a></li>
+        <li><a href="#Probar-salidas-ruido-rosa">Probar salidas de ruido rosa</a></li>
+        <li><a href="#Deslinkear-linkear-canal">Deslinkear / Linkear un canal</a></li>
+        <li><a href="#Rutear-canal">Rutear un canal</a></li>
+      </ul>
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo" class="logo-sidebar">
+      </div>
+    </nav>
+    <div class="informacion-central">
+      <div class="titulo-central">
+        <h2>CONSOLA-EMETH</h2>
+      </div>
+      <div class="acordeon" id="Cancelar-salida-stream">
+        <div class="acordeon-header">
+          Cancelar salida stream
+        </div>
+        <div class="acordeon-content">
+          <p><strong>Paso 1:</strong> Ubicarte en el main de audio LR</p>
+          <img src="salidaStream/paso1.jpeg" alt="Paso 1">
+         <p><strong>Paso 2:</strong> Ir a la pestaña de HOME</p>
+         <img src="salidaStream/paso2.jpeg" alt="Paso 2">
+        <p><strong>Paso 3:</strong>Navegar entre las paginas hasta encontrar la que dice "SENDS" y mutear los canales de stream</p>
+        <img src="salidaStream/paso3.jpeg" alt="Paso 3">
+    </div>
+      </div>
+
+      <div class="acordeon" id="Probar-salidas-ruido-rosa">
+        <div class="acordeon-header">
+        Probar ruido rosa
+        </div>
+        <div class="acordeon-content">
+          <p><strong>Paso 1:</strong> Presionar el botón de "view" para que podamos obtener las caractéristicas</p>
+        <img src="pruebaOscilador/paso1.jpeg" alt="Paso 1">
+         <p><strong>Paso 2:</strong> Navegar hasta la pestaña "oscillator" y elegir la opción ruido rosa, del lado derecho esta las opciones de salida de los buses</p>
+        <img src="pruebaOscilador/paso2.jpeg" alt="Paso 2">
+        </div>
+      </div>
+      <div class="acordeon" id="Deslinkear-linkear-canal">
+        <div class="acordeon-header">
+          Deslinkear / Linkear un canal
+        </div>
+        <div class="acordeon-content">
+        <p><strong>Paso 1:</strong> Seleccionar un canal</p>
+        <img src="canales/" alt="Paso 1">
+        <p><strong>Paso 2:</strong> ir a la pestaña Home y presionar link automaticamente se linkea el canal de la derecha</p>
+        <img src="canales/paso2.jpeg" alt="Paso 2">
+        </div>
+      </div>
+
+      <div class="acordeon" id="Rutear-canal">
+        <div class="acordeon-header">
+          Rutear un canal
+        </div>
+        <div class="acordeon-content">
+        <p><strong>Paso 1:</strong> Seleccionar un canal disponible en la consola</p>
+        <img src="ruteo/paso1.jpeg" alt="Paso 1">
+        <p><strong>Paso 2:</strong> Irse a la pestaña config presionando el botón Home</p>
+        <img src="ruteo/paso2.jpeg" alt="Paso 2">
+        <p><strong>Paso 3:</strong> Visualizar que canal esta disponible en el snake para vincularlo a la consola seleccionar en la ventana source</p>
+        <img src="ruteo/paso3.jpeg" alt="Paso 3">
+        <p>Las locales son IN y las remotas son A, las del snake son las A</p>
+        <img src="ruteo/visualizacion1.jpeg" alt="Visualizacion 1">
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/menu.js"></script>
+</body>
+</html>
